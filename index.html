@@ -3,10 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test your typing speed 🏎</title>
+    <title>Typometer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="main"></div>
+    <div id="main">
+      <div id="heading">
+        <i class="ri-speed-up-line"></i>
+        <h2>TypoMeter</h2>
+      </div>
+      <div id="wpm-display">
+        <div id="wpm">
+          <h3>WPM:</h3>
+          <h3 id="wpm-calc">58</h3>
+        </div>
+        <div>
+          <h2 id="timer">60</h2>
+        </div>
+        <button>New Game</button>
+      </div>
+      <div id="wpm-content">
+        <p id="comparable-text">
+          point look hold about life around but so for new great school plan one
+          than hold if end to child into school he after system last other
+          problem from get because what
+        </p>
+        <textarea id="text-input"></textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
